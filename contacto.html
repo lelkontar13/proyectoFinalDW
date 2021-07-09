@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Beirut Cocina Arabe</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="conteinerLogo">
+        <header>
+            <img id="logoBeirut" src="img/Beirut.png" alt="Logo Beirut">
+        </header>
+    </div>
+
+    <div class="conteinerNav">
+        <!--NAV BOOTSTRAP-->
+        <nav class="navbar navbar-expand-lg navbar bg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Beirut.html">Beirut</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Menu.html">Menú</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Encontranos.html">Encontranos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!--FIN DE NAV-->
+    </div>   
+
+    <main class="cuerpo">
+        <section>
+            <article>
+                <p class="tituloMain1">¿Querés que estemos presentes en tu evento?</p>
+                <!--FORMULARIO BOOTSTRAP-->
+                <form class="datosForm">
+                    <div class="mb-3">
+                        <label for="exampleInputNombre" class="form-label">Nombre</label>
+                        <input type="nombre" class="form-control" id="exampleInputNombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputTelefono" class="form-label">Teléfono de contacto</label>
+                        <input type="telefono" class="form-control" id="exampleInputTelefono">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Quiero recibir las promociones semanales</label>
+                    </div>
+                    <button type="submit" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="boton">
+                        Enviar
+                    </button> 
+                </form>
+                <!--FIN FORMULARIO-->
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="textoPiePagina">
+                <img id="bandera" src="img/bandera.png" alt="Bandera">
+            </div>
+            <div class="textoPiePagina">
+                <p class="animate__animated animate__backInLeft">   Beirut, la auténtica comida árabe.</p>
+            </div>
+            <div class="logosPiePagina">
+                <a href="https://www.facebook.com/restaurantbeirutsanjusto"><img id="logoRedes" src="img/LogoFacebook.png" alt="Logo Facebook"></a>
+                <a href="https://www.instagram.com/beirutcocinaarabe_liniers/"><img id="logoRedes" src="img/LogoInstagram.png" alt="Logo Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+
+</body>    
+
+</html>
