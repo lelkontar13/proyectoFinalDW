@@ -54,10 +54,6 @@ body{
             @include body (32px, $colorLetras);
             text-decoration: none;
         }
-        
-        a:hover{
-            color: $colorHover;
-        }
     }
 }
 

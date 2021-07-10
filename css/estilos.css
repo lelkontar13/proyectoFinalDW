@@ -217,7 +217,7 @@ footer {
       padding-right: 20px; }
       .conteinerNav li a {
         color: #cee0d4;
-        font-size: 32px;
+        font-size: 35px;
         font-family: "Merienda", cursive;
         text-decoration: none; }
       .conteinerNav li a:hover {
@@ -381,7 +381,7 @@ footer {
     background-size: cover;
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 100px 450px 70px;
+    grid-template-rows: 100px 500px 70px;
     grid-template-areas: "Menu Menu Menu" "Cuerpo Cuerpo Cuerpo" "Footer Footer Footer"; }
   
   .conteinerLogo {
@@ -389,7 +389,7 @@ footer {
     display: flex;
     justify-content: flex-start; }
     .conteinerLogo #logoBeirut {
-      width: 250px;
+      width: 250px; 
       height: 160px; }
   
   .conteinerNav {
@@ -400,11 +400,11 @@ footer {
     padding-top: 60px; }
     .conteinerNav li {
       display: inline;
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 15px;
+      padding-right: 15px; }
       .conteinerNav li a {
         color: #cee0d4;
-        font-size: 30px;
+        font-size: 25px;
         font-family: "Merienda", cursive;
         text-decoration: none; }
       .conteinerNav li a:hover {
@@ -446,7 +446,7 @@ footer {
       display: flex;
       justify-content: center;
       align-content: center;
-      margin-top: 150px; }
+      margin-top: 180px; }
     .cuerpo .whatsapp {
       display: flex;
       justify-content: flex-end;
@@ -457,9 +457,9 @@ footer {
         width: 50px; }
     .cuerpo .tituloHistoria {
       color: #cee0d4;
-      font-size: 15px;
+      font-size: 18px;
       font-family: "Merienda", cursive;
-      margin-top: 100px;
+      margin-top: 90px;
       margin-left: 40px;
       text-decoration: underline; }
     .cuerpo .textoHistoria {
@@ -476,12 +476,12 @@ footer {
       .cuerpo .mapa #medidasMapa {
         height: 350px;
         width: 800px;
-        margin-top: 60px;}
+        margin-top: 80px; }
     .cuerpo .tituloMain1 {
       color: #cee0d4;
-      font-size: 40px;
+      font-size: 42px;
       font-family: "Merienda", cursive;
-      margin-top: 50px;
+      margin-top: 70px;
       display: flex;
       justify-content: center; }
     .cuerpo .datosForm, .cuerpo .datosForm #boton {
@@ -490,7 +490,7 @@ footer {
       font-family: "Merienda", cursive;
       margin-right: 300px;
       margin-left: 300px;
-      margin-top: 20px; }
+      margin-top: 30px; }
       .cuerpo .datosForm #boton {
         color: #b0e4c1;
         margin-left: 0px; }
@@ -498,65 +498,65 @@ footer {
       display: flex;
       justify-content: space-around; }
       .cuerpo .conteinerImagenes .medidasFotos1 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos2 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos3 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos4 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos5 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos6 {
-        height:120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos7 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos8 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos9 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos10 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
 }
 
 @media only screen and (min-width: 768px){
@@ -568,7 +568,7 @@ footer {
     background-size: cover;
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 100px 450px 70px;
+    grid-template-rows: 100px 500px 70px;
     grid-template-areas: "Menu Menu Menu" "Cuerpo Cuerpo Cuerpo" "Footer Footer Footer"; }
   
   .conteinerLogo {
@@ -576,7 +576,7 @@ footer {
     display: flex;
     justify-content: flex-start; }
     .conteinerLogo #logoBeirut {
-      width: 230px;
+      width: 230px; 
       height: 150px; }
   
   .conteinerNav {
@@ -584,14 +584,14 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
-    padding-top: 60px; }
+    padding-top: 40px; }
     .conteinerNav li {
       display: inline;
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 15px;
+      padding-right: 15px; }
       .conteinerNav li a {
         color: #cee0d4;
-        font-size: 18px;
+        font-size: 20px;
         font-family: "Merienda", cursive;
         text-decoration: none; }
       .conteinerNav li a:hover {
@@ -628,12 +628,12 @@ footer {
     grid-area: Cuerpo; }
     .cuerpo .textoMain {
       color: #cee0d4;
-      font-size: 50px;
+      font-size: 40px;
       font-family: "Merienda", cursive;
       display: flex;
       justify-content: center;
       align-content: center;
-      margin-top: 150px; }
+      margin-top: 180px; }
     .cuerpo .whatsapp {
       display: flex;
       justify-content: flex-end;
@@ -644,9 +644,196 @@ footer {
         width: 50px; }
     .cuerpo .tituloHistoria {
       color: #cee0d4;
-      font-size: 15px;
+      font-size: 18px;
+      font-family: "Merienda", cursive;
+      margin-top: 90px;
+      margin-left: 40px;
+      text-decoration: underline; }
+    .cuerpo .textoHistoria {
+      color: #cee0d4;
+      font-size: 20px;
+      font-family: "Merienda", cursive;
+      display: flex;
+      align-content: center;
+      margin-left: 40px; }
+    .cuerpo .mapa {
+      display: flex;
+      justify-content: center;
+      align-content: center; }
+      .cuerpo .mapa #medidasMapa {
+        height: 330px;
+        width: 700px;
+        margin-top: 80px; }
+    .cuerpo .tituloMain1 {
+      color: #cee0d4;
+      font-size: 32px;
       font-family: "Merienda", cursive;
       margin-top: 70px;
+      display: flex;
+      justify-content: center; }
+    .cuerpo .datosForm, .cuerpo .datosForm #boton {
+      color: #cee0d4;
+      font-size: 18px;
+      font-family: "Merienda", cursive;
+      margin-right: 200px;
+      margin-left: 200px;
+      margin-top: 30px; }
+      .cuerpo .datosForm #boton {
+        color: #b0e4c1;
+        margin-left: 0px; }
+    .cuerpo .conteinerImagenes {
+      display: flex;
+      justify-content: space-around; }
+      .cuerpo .conteinerImagenes .medidasFotos1 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos2 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos3 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos4 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos5 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos6 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos7 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos8 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos9 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos10 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+}
+
+@media only screen and (min-width: 600px){
+  body {
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100px 500px 70px;
+    grid-template-areas: "Menu Menu Menu" "Cuerpo Cuerpo Cuerpo" "Footer Footer Footer"; }
+  
+  .conteinerLogo {
+    grid-area: Menu;
+    display: flex;
+    justify-content: flex-start; }
+    .conteinerLogo #logoBeirut {
+      width: 220px; 
+      height: 150px; }
+  
+  .conteinerNav {
+    grid-area: Menu;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-top: 40px; }
+    .conteinerNav li {
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .conteinerNav li a {
+        color: #cee0d4;
+        font-size: 20px;
+        font-family: "Merienda", cursive;
+        text-decoration: none; }
+      .conteinerNav li a:hover {
+        color: rgba(68, 158, 95, 0.89); }
+  
+  footer {
+    grid-area: Footer;
+    background-image: linear-gradient(#750505, #bd5757, #3b0202); }
+    footer .container-footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      footer .container-footer .textoPiePagina {
+        color: #cee0d4;
+        font-size: 20px;
+        font-family: "Merienda", cursive;
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-end;
+        padding-top: 12px; }
+        footer .container-footer .textoPiePagina #bandera {
+          width: 80px;
+          height: 50px; }
+      footer .container-footer .logosPiePagina {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; }
+        footer .container-footer .logosPiePagina #logoRedes {
+          width: 30px;
+          height: 40px;
+          padding-top: 10px; }
+  
+  .cuerpo {
+    grid-area: Cuerpo; }
+    .cuerpo .textoMain {
+      color: #cee0d4;
+      font-size: 40px;
+      font-family: "Merienda", cursive;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 180px; }
+    .cuerpo .whatsapp {
+      display: flex;
+      justify-content: flex-end;
+      align-content: flex-end;
+      margin-top: 90px; }
+      .cuerpo .whatsapp #logoWhatsapp {
+        height: 50px;
+        width: 50px; }
+    .cuerpo .tituloHistoria {
+      color: #cee0d4;
+      font-size: 17px;
+      font-family: "Merienda", cursive;
+      margin-top: 90px;
       margin-left: 40px;
       text-decoration: underline; }
     .cuerpo .textoHistoria {
@@ -661,23 +848,23 @@ footer {
       justify-content: center;
       align-content: center; }
       .cuerpo .mapa #medidasMapa {
-        height: 330px;
-        width: 700px;
-        margin-top: 80px;}
+        height: 350px;
+        width: 570px;
+        margin-top: 80px; }
     .cuerpo .tituloMain1 {
       color: #cee0d4;
-      font-size: 33px;
+      font-size: 25px;
       font-family: "Merienda", cursive;
-      margin-top: 50px;
+      margin-top: 70px;
       display: flex;
       justify-content: center; }
     .cuerpo .datosForm, .cuerpo .datosForm #boton {
       color: #cee0d4;
       font-size: 18px;
       font-family: "Merienda", cursive;
-      margin-right: 200px;
-      margin-left: 200px;
-      margin-top: 20px; }
+      margin-right: 150px;
+      margin-left: 150px;
+      margin-top: 30px; }
       .cuerpo .datosForm #boton {
         color: #b0e4c1;
         margin-left: 0px; }
@@ -685,68 +872,68 @@ footer {
       display: flex;
       justify-content: space-around; }
       .cuerpo .conteinerImagenes .medidasFotos1 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos2 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos3 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos4 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos5 {
-        height: 120px;
-        width: 120px;
-        margin-top: 90px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos6 {
-        height:120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos7 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos8 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos9 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .cuerpo .conteinerImagenes .medidasFotos10 {
-        height: 120px;
-        width: 120px;
-        margin-top: 250px;
-        padding-left: 5px;
-        padding-right: 5px; }
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 600px){
   body {
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -755,118 +942,180 @@ footer {
     background-size: cover;
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 180px 370px 70px;
-    grid-template-areas: "Menu Menu Menu"
-   "Cuerpo Cuerpo Cuerpo"
-   "Footer Footer Footer"; }
+    grid-template-rows: 100px 500px 70px;
+    grid-template-areas: "Menu Menu Menu" "Cuerpo Cuerpo Cuerpo" "Footer Footer Footer"; }
+  
   .conteinerLogo {
     grid-area: Menu;
-    justify-self: center;
-    align-self: start; }
+    display: flex;
+    justify-content: flex-start; }
     .conteinerLogo #logoBeirut {
-      width: 220px; 
-      height: 150px; }
+      width: 150px; 
+      height: 100px;}
+  
   .conteinerNav {
     grid-area: Menu;
-    align-self: end;
-    justify-self: center;
-    padding-top: 100px; }
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-top: 5px; }
     .conteinerNav li {
       display: inline;
-      padding-left: 20px;
-      padding-right: 20px; }
+      padding-left: 15px;
+      padding-right: 15px; }
       .conteinerNav li a {
-        color: #CEE0D4;
-        font-size: 16px;
+        color: #cee0d4;
+        font-size: 17px;
         font-family: "Merienda", cursive;
         text-decoration: none; }
       .conteinerNav li a:hover {
         color: rgba(68, 158, 95, 0.89); }
+  
   footer {
     grid-area: Footer;
-    background-image: linear-gradient(#750505, #BD5757, #3B0202); }
+    background-image: linear-gradient(#750505, #bd5757, #3b0202); }
     footer .container-footer {
       display: flex;
       justify-content: space-around;
       align-items: center; }
       footer .container-footer .textoPiePagina {
-        color: #CEE0D4;
-        font-size: 18px;
+        color: #cee0d4;
+        font-size: 12px;
         font-family: "Merienda", cursive;
         display: flex;
         justify-content: flex-start;
         align-content: flex-end;
-        padding-top: 12px; }
+        padding-top: 15px; }
         footer .container-footer .textoPiePagina #bandera {
-          width: 80px; 
-          height: 50px; }
+          width: 50px; 
+          height: 35px; }
       footer .container-footer .logosPiePagina {
         display: flex;
         justify-content: flex-end;
         align-items: center; }
         footer .container-footer .logosPiePagina #logoRedes {
-          width: 30px;
-          height: 30px;
+          width: 25px;
+          height: 35px;
           padding-top: 10px; }
+  
   .cuerpo {
     grid-area: Cuerpo; }
     .cuerpo .textoMain {
-      color: #CEE0D4;
-      font-size: 35px;
+      color: #cee0d4;
+      font-size: 22px;
       font-family: "Merienda", cursive;
       display: flex;
       justify-content: center;
       align-content: center;
-      margin-top: 90px; }
+      margin-top: 180px; }
     .cuerpo .whatsapp {
       display: flex;
       justify-content: flex-end;
       align-content: flex-end;
-      margin-top: 70px; }
+      margin-top: 90px; }
       .cuerpo .whatsapp #logoWhatsapp {
-        height: 50px;
-        width: 50px; }
+        height: 40px;
+        width: 40px; }
     .cuerpo .tituloHistoria {
-      color: #CEE0D4;
-      font-size: 14px;
+      color: #cee0d4;
+      font-size: 15px;
       font-family: "Merienda", cursive;
-      margin-top: 0px;
-      margin-left: 30px;
+      margin-top: 60px;
+      margin-left: 40px;
       text-decoration: underline; }
     .cuerpo .textoHistoria {
-      color: #CEE0D4;
+      color: #cee0d4;
       font-size: 16px;
       font-family: "Merienda", cursive;
       display: flex;
       align-content: center;
-      margin-left: 30px; }
+      margin-left: 40px; }
     .cuerpo .mapa {
       display: flex;
       justify-content: center;
       align-content: center; }
       .cuerpo .mapa #medidasMapa {
         height: 350px;
-        width: 570px;
-        margin-top: 0px; }
+        width: 320px;
+        margin-top: 50px; }
     .cuerpo .tituloMain1 {
-      color: #CEE0D4;
-      font-size: 25px;
+      color: #cee0d4;
+      font-size: 15px;
       font-family: "Merienda", cursive;
-      margin-top: 0px;
+      margin-top: 70px;
       display: flex;
       justify-content: center; }
     .cuerpo .datosForm, .cuerpo .datosForm #boton {
-      color: #CEE0D4;
+      color: #cee0d4;
       font-size: 13px;
       font-family: "Merienda", cursive;
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 50px;
+      margin-left: 50px;
       margin-top: 30px; }
       .cuerpo .datosForm #boton {
-        color: #B0E4C1;
+        color: #b0e4c1;
         margin-left: 0px; }
     .cuerpo .conteinerImagenes {
-      padding-top: 100px;
       display: flex;
       justify-content: space-around; }
+      .cuerpo .conteinerImagenes .medidasFotos1 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos2 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos3 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos4 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos5 {
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos6 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos7 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos8 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos9 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .cuerpo .conteinerImagenes .medidasFotos10 {
+        height: 150px;
+        width: 150px;
+        margin-top: 300px;
+        padding-left: 10px;
+        padding-right: 10px; }
 }
