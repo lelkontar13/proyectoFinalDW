@@ -9,9 +9,18 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelkontar13/proyectoFinalDW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lelkontar13/proyectoFinalDW/issues"
+  },
+  "homepage": "https://github.com/lelkontar13/proyectoFinalDW#readme",
+  "description": ""
 }

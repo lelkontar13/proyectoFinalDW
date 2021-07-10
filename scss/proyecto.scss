@@ -6,6 +6,14 @@
     font-family: $tipoLetras;
 }
 
+@mixin photos($alto, $ancho, $top){
+    height: $alto;
+    width: $ancho;
+    margin-top: $top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 body{
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -147,9 +155,38 @@ footer{
         }
     }
     .conteinerImagenes{
-        padding-top: 100px;
         display: flex;
-        justify-content: space-around;;
+        justify-content: space-around;
+        .medidasFotos1{
+            @include photos (150px, 150px, 100px);
+        }
+        .medidasFotos2{
+            @include photos (150px, 150px, 100px);
+        }
+        .medidasFotos3{
+            @include photos (150px, 150px, 100px);
+        }
+        .medidasFotos4{
+            @include photos (150px, 150px, 100px);
+        }
+        .medidasFotos5{
+            @include photos (150px, 150px, 100px);
+        }
+        .medidasFotos6{
+            @include photos (150px, 150px, 300px);
+        }
+        .medidasFotos7{
+            @include photos (150px, 150px, 300px);
+        }
+        .medidasFotos8{
+            @include photos (150px, 150px, 300px);
+        }
+        .medidasFotos9{
+            @include photos (150px, 150px, 300px);
+        }
+        .medidasFotos10{
+            @include photos (150px, 150px, 300px);
+        }
     }
 }
 
