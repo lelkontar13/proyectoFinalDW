@@ -6,64 +6,46 @@
     font-family: $tipoLetras;
 }
 
-@mixin photos($alto, $ancho, $top){
-    height: $alto;
-    width: $ancho;
-    margin-top: $top;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 body{
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
     background-position: center center;    
     background-attachment: fixed;
     background-size: cover;
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 100px 530px 70px;
-    grid-template-areas: "Menu Menu Menu"
-                         "Cuerpo Cuerpo Cuerpo"
-                         "Footer Footer Footer";
 }
 
 //HEADER
 
-.conteinerLogo{
-    grid-area: Menu;
+header{
     display: flex;
-    justify-content: flex-start;
-    #logoBeirut {
-        width: 270px; 
-        height: 180px;
+    justify-content: space-between;
+    .conteinerLogo{
+        #logoBeirut {
+            width: 270px; 
+            height: 180px;
+        }
+    }
+    .conteinerNav{
+        padding-top: 40px;
+        li{
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+            a{
+                @include body (32px, $colorLetras);
+                text-decoration: none;
+            }
+            a:hover{
+                color: $colorHover;
+            }
+        }
     }
 }
 
-.conteinerNav{
-    grid-area: Menu;
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    padding-top: 60px;
-    li{
-        display: inline;
-        padding-left: 20px;
-        padding-right: 20px;
-        a{
-            @include body (32px, $colorLetras);
-            text-decoration: none;
-        }
-        a:hover{
-            color: $colorHover;
-        }
-    }
-}
 
 //FOOTER
 
 footer{
-    grid-area: Footer;
     background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
     .container-footer{
         display: flex;
@@ -73,8 +55,7 @@ footer{
             @include body (20px, $colorLetras);
             display: flex;
             justify-content: flex-start;
-            align-content: flex-end;
-            padding-top: 12px;
+            align-content: center;
             #bandera{
                 width: 80px; 
                 height: 50px;
@@ -86,8 +67,7 @@ footer{
             align-items: center;
             #logoRedes{
                 width: 30px; 
-                height: 40px;
-                padding-top: 10px;
+                height: 35px;
             }
         }
     }
@@ -96,49 +76,51 @@ footer{
 //CUERPO
 
 .cuerpo{
-    grid-area: Cuerpo;
     .textoMain{
         @include body (70px, $colorLetras);
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 180px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .whatsapp{
         display: flex;
         justify-content: flex-end;
         align-content: flex-end;
-        margin-top: 90px;
+        padding-top: 60px;
+        padding-bottom: 50px;
         #logoWhatsapp{
             height: 50px;
             width: 50px;
         }
     }
     .tituloHistoria{
-        @include body (20px, $colorLetras);
-        margin-top: 120px;
-        margin-left: 40px;
+        @include body (28px, $colorLetras);
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-bottom: 30px;
         text-decoration: underline;
     }
     .textoHistoria{
-        @include body (20px, $colorLetras);
+        @include body (25px, $colorLetras);
         display: flex;
         align-content: center;
-        margin-left: 40px;
+        padding-left: 40px;
+        padding-bottom: 140px;
     }
     .mapa{
         display: flex;
         justify-content: center;
-        align-content: center;
         #medidasMapa{
-            height: 450px;
+            height: 480px;
             width: 1000px;
-            margin-top: 30px;
+            padding-bottom: 50px;
         }
     }
     .tituloMain1{
         @include body (45px, $colorLetras);
-        margin-top: 70px;
+        padding-top: 20px;
         display: flex;
         justify-content: center;
     }
@@ -151,41 +133,13 @@ footer{
             @extend .datosForm;
             color: rgb(176, 228, 193);
             margin-left: 0px;
+            margin-bottom: 60px;
         }
     }
     .conteinerImagenes{
         display: flex;
         justify-content: space-around;
-        .medidasFotos1{
-            @include photos (150px, 150px, 100px);
-        }
-        .medidasFotos2{
-            @include photos (150px, 150px, 100px);
-        }
-        .medidasFotos3{
-            @include photos (150px, 150px, 100px);
-        }
-        .medidasFotos4{
-            @include photos (150px, 150px, 100px);
-        }
-        .medidasFotos5{
-            @include photos (150px, 150px, 100px);
-        }
-        .medidasFotos6{
-            @include photos (150px, 150px, 300px);
-        }
-        .medidasFotos7{
-            @include photos (150px, 150px, 300px);
-        }
-        .medidasFotos8{
-            @include photos (150px, 150px, 300px);
-        }
-        .medidasFotos9{
-            @include photos (150px, 150px, 300px);
-        }
-        .medidasFotos10{
-            @include photos (150px, 150px, 300px);
-        }
+        
     }
 }
 
