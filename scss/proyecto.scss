@@ -137,10 +137,14 @@ footer{
         }
     }
     .conteinerImagenes{
-        display: flex;
-        justify-content: space-around;
-        
+        padding-left: 60px;
+        padding-bottom: 20px;
+        .tamanioImg{
+            height: 250px;
+            width: 250px;
+        }
     }
+    
 }
 
 
