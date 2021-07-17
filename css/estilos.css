@@ -26,7 +26,6 @@ header {
         color: rgba(68, 158, 95, 0.89); }
 
 footer {
-  width: 100%;
   background-image: linear-gradient(#750505, #bd5757, #3b0202); }
   footer .container-footer {
     display: flex;
@@ -123,8 +122,8 @@ footer {
     height: 250px;
     width: 250px; }
 
-/*RESPONSIVE*/
-@media only screen and (min-width: 1200px){
+/*SE ADAPTA A DISPOSITIVOS*/
+@media only screen and (max-width: 600px){
   body {
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -136,8 +135,8 @@ footer {
     display: flex;
     justify-content: space-between; }
     header .conteinerLogo #logoBeirut {
-      width: 270px;
-      height: 180px; }
+      width: 150px; 
+      height: 100px; }
     header .conteinerNav {
       padding-top: 40px; }
       header .conteinerNav li {
@@ -146,7 +145,7 @@ footer {
         padding-right: 20px; }
         header .conteinerNav li a {
           color: #cee0d4;
-          font-size: 32px;
+          font-size: 17px;
           font-family: "Merienda", cursive;
           text-decoration: none; }
         header .conteinerNav li a:hover {
@@ -161,30 +160,30 @@ footer {
       align-items: center; }
       footer .container-footer .textoPiePagina {
         color: #cee0d4;
-        font-size: 20px;
+        font-size: 13px;
         font-family: "Merienda", cursive;
         display: flex;
         justify-content: flex-start;
         align-content: center; }
         footer .container-footer .textoPiePagina #bandera {
-          width: 80px;
-          height: 50px; }
+          width: 50px; 
+          height: 35px; }
       footer .container-footer .logosPiePagina {
         display: flex;
         justify-content: flex-end;
         align-items: center; }
         footer .container-footer .logosPiePagina #logoRedes {
-          width: 30px;
-          height: 35px; }
+          width: 25px;
+          height: 28px; }
   
   .cuerpo .textoMain {
     color: #cee0d4;
-    font-size: 70px;
+    font-size: 24px;
     font-family: "Merienda", cursive;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 100px; }
   
   .cuerpo .whatsapp {
@@ -199,7 +198,7 @@ footer {
   
   .cuerpo .tituloHistoria {
     color: #cee0d4;
-    font-size: 28px;
+    font-size: 22px;
     font-family: "Merienda", cursive;
     padding-top: 30px;
     padding-left: 40px;
@@ -208,7 +207,7 @@ footer {
   
   .cuerpo .textoHistoria {
     color: #cee0d4;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Merienda", cursive;
     display: flex;
     align-content: center;
@@ -219,13 +218,13 @@ footer {
     display: flex;
     justify-content: center; }
     .cuerpo .mapa #medidasMapa {
-      height: 480px;
-      width: 1000px;
+      height: 450px;
+      width: 350px;
       padding-bottom: 50px; }
   
   .cuerpo .tituloMain1 {
     color: #cee0d4;
-    font-size: 45px;
+    font-size: 16px;
     font-family: "Merienda", cursive;
     padding-top: 20px;
     display: flex;
@@ -233,10 +232,10 @@ footer {
   
   .cuerpo .datosForm, .cuerpo .datosForm #boton {
     color: #cee0d4;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Merienda", cursive;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 30px; }
     .cuerpo .datosForm #boton {
       color: #b0e4c1;
@@ -244,14 +243,14 @@ footer {
       margin-bottom: 60px; }
   
   .cuerpo .conteinerImagenes {
-    padding-left: 60px;
+    padding-left: 25px;
     padding-bottom: 20px; }
     .cuerpo .conteinerImagenes .tamanioImg {
-      height: 250px;
-      width: 250px; }
+      height: 130px;
+      width: 130px; }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 600px){
   body {
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -263,8 +262,8 @@ footer {
     display: flex;
     justify-content: space-between; }
     header .conteinerLogo #logoBeirut {
-      width: 250px; 
-      height: 160px;}
+      width: 220px; 
+      height: 150px; }
     header .conteinerNav {
       padding-top: 40px; }
       header .conteinerNav li {
@@ -273,7 +272,7 @@ footer {
         padding-right: 20px; }
         header .conteinerNav li a {
           color: #cee0d4;
-          font-size: 25px;
+          font-size: 20px;
           font-family: "Merienda", cursive;
           text-decoration: none; }
         header .conteinerNav li a:hover {
@@ -288,25 +287,25 @@ footer {
       align-items: center; }
       footer .container-footer .textoPiePagina {
         color: #cee0d4;
-        font-size: 20px;
+        font-size: 17px;
         font-family: "Merienda", cursive;
         display: flex;
         justify-content: flex-start;
         align-content: center; }
         footer .container-footer .textoPiePagina #bandera {
-          width: 80px;
-          height: 50px; }
+          width: 75px;
+          height: 45px; }
       footer .container-footer .logosPiePagina {
         display: flex;
         justify-content: flex-end;
         align-items: center; }
         footer .container-footer .logosPiePagina #logoRedes {
-          width: 30px;
-          height: 35px; }
+          width: 25px;
+          height: 30px; }
   
   .cuerpo .textoMain {
     color: #cee0d4;
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Merienda", cursive;
     display: flex;
     justify-content: center;
@@ -326,7 +325,7 @@ footer {
   
   .cuerpo .tituloHistoria {
     color: #cee0d4;
-    font-size: 26px;
+    font-size: 24px;
     font-family: "Merienda", cursive;
     padding-top: 30px;
     padding-left: 40px;
@@ -335,7 +334,7 @@ footer {
   
   .cuerpo .textoHistoria {
     color: #cee0d4;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Merienda", cursive;
     display: flex;
     align-content: center;
@@ -347,12 +346,12 @@ footer {
     justify-content: center; }
     .cuerpo .mapa #medidasMapa {
       height: 480px;
-      width: 900px;
+      width: 590px;
       padding-bottom: 50px; }
   
   .cuerpo .tituloMain1 {
     color: #cee0d4;
-    font-size: 42px;
+    font-size: 25px;
     font-family: "Merienda", cursive;
     padding-top: 20px;
     display: flex;
@@ -362,8 +361,8 @@ footer {
     color: #cee0d4;
     font-size: 18px;
     font-family: "Merienda", cursive;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 30px; }
     .cuerpo .datosForm #boton {
       color: #b0e4c1;
@@ -371,11 +370,11 @@ footer {
       margin-bottom: 60px; }
   
   .cuerpo .conteinerImagenes {
-    padding-left: 30px;
+    padding-left: 5px;
     padding-bottom: 20px; }
     .cuerpo .conteinerImagenes .tamanioImg {
-      height: 200px;
-      width: 200px; }
+      height: 130px;
+      width: 130px; }
 }
 
 @media only screen and (min-width: 768px){
@@ -505,7 +504,7 @@ footer {
       width: 150px; }
 }
 
-@media only screen and (min-width: 60px){
+@media only screen and (min-width: 992px){
   body {
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -517,8 +516,8 @@ footer {
     display: flex;
     justify-content: space-between; }
     header .conteinerLogo #logoBeirut {
-      width: 220px; 
-      height: 150px; }
+      width: 250px; 
+      height: 160px;}
     header .conteinerNav {
       padding-top: 40px; }
       header .conteinerNav li {
@@ -527,12 +526,12 @@ footer {
         padding-right: 20px; }
         header .conteinerNav li a {
           color: #cee0d4;
-          font-size: 20px;
+          font-size: 25px;
           font-family: "Merienda", cursive;
           text-decoration: none; }
         header .conteinerNav li a:hover {
           color: rgba(68, 158, 95, 0.89); }
-  
+
   footer {
     width: 100%;
     background-image: linear-gradient(#750505, #bd5757, #3b0202); }
@@ -542,25 +541,25 @@ footer {
       align-items: center; }
       footer .container-footer .textoPiePagina {
         color: #cee0d4;
-        font-size: 17px;
+        font-size: 20px;
         font-family: "Merienda", cursive;
         display: flex;
         justify-content: flex-start;
         align-content: center; }
         footer .container-footer .textoPiePagina #bandera {
-          width: 75px;
-          height: 45px; }
+          width: 80px;
+          height: 50px; }
       footer .container-footer .logosPiePagina {
         display: flex;
         justify-content: flex-end;
         align-items: center; }
         footer .container-footer .logosPiePagina #logoRedes {
-          width: 25px;
-          height: 30px; }
-  
+          width: 30px;
+          height: 35px; }
+
   .cuerpo .textoMain {
     color: #cee0d4;
-    font-size: 40px;
+    font-size: 60px;
     font-family: "Merienda", cursive;
     display: flex;
     justify-content: center;
@@ -580,7 +579,7 @@ footer {
   
   .cuerpo .tituloHistoria {
     color: #cee0d4;
-    font-size: 24px;
+    font-size: 26px;
     font-family: "Merienda", cursive;
     padding-top: 30px;
     padding-left: 40px;
@@ -589,7 +588,7 @@ footer {
   
   .cuerpo .textoHistoria {
     color: #cee0d4;
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Merienda", cursive;
     display: flex;
     align-content: center;
@@ -601,12 +600,12 @@ footer {
     justify-content: center; }
     .cuerpo .mapa #medidasMapa {
       height: 480px;
-      width: 590px;
+      width: 900px;
       padding-bottom: 50px; }
   
   .cuerpo .tituloMain1 {
     color: #cee0d4;
-    font-size: 25px;
+    font-size: 42px;
     font-family: "Merienda", cursive;
     padding-top: 20px;
     display: flex;
@@ -616,8 +615,8 @@ footer {
     color: #cee0d4;
     font-size: 18px;
     font-family: "Merienda", cursive;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
     margin-top: 30px; }
     .cuerpo .datosForm #boton {
       color: #b0e4c1;
@@ -625,14 +624,14 @@ footer {
       margin-bottom: 60px; }
   
   .cuerpo .conteinerImagenes {
-    padding-left: 5px;
+    padding-left: 30px;
     padding-bottom: 20px; }
     .cuerpo .conteinerImagenes .tamanioImg {
-      height: 130px;
-      width: 130px; }
+      height: 200px;
+      width: 200px; }
 }
 
-@media only screen and (min-width: 60px){
+@media only screen and (min-width: 1200px){
   body {
     background-image: url("../img/fondo1.jpg");
     background-repeat: no-repeat;
@@ -644,8 +643,8 @@ footer {
     display: flex;
     justify-content: space-between; }
     header .conteinerLogo #logoBeirut {
-      width: 150px; 
-      height: 100px; }
+      width: 270px;
+      height: 180px; }
     header .conteinerNav {
       padding-top: 40px; }
       header .conteinerNav li {
@@ -654,7 +653,7 @@ footer {
         padding-right: 20px; }
         header .conteinerNav li a {
           color: #cee0d4;
-          font-size: 17px;
+          font-size: 32px;
           font-family: "Merienda", cursive;
           text-decoration: none; }
         header .conteinerNav li a:hover {
@@ -669,30 +668,30 @@ footer {
       align-items: center; }
       footer .container-footer .textoPiePagina {
         color: #cee0d4;
-        font-size: 13px;
+        font-size: 20px;
         font-family: "Merienda", cursive;
         display: flex;
         justify-content: flex-start;
         align-content: center; }
         footer .container-footer .textoPiePagina #bandera {
-          width: 50px; 
-          height: 35px; }
+          width: 80px;
+          height: 50px; }
       footer .container-footer .logosPiePagina {
         display: flex;
         justify-content: flex-end;
         align-items: center; }
         footer .container-footer .logosPiePagina #logoRedes {
-          width: 25px;
-          height: 28px; }
+          width: 30px;
+          height: 35px; }
   
   .cuerpo .textoMain {
     color: #cee0d4;
-    font-size: 24px;
+    font-size: 70px;
     font-family: "Merienda", cursive;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px; }
   
   .cuerpo .whatsapp {
@@ -707,7 +706,7 @@ footer {
   
   .cuerpo .tituloHistoria {
     color: #cee0d4;
-    font-size: 22px;
+    font-size: 28px;
     font-family: "Merienda", cursive;
     padding-top: 30px;
     padding-left: 40px;
@@ -716,7 +715,7 @@ footer {
   
   .cuerpo .textoHistoria {
     color: #cee0d4;
-    font-size: 18px;
+    font-size: 25px;
     font-family: "Merienda", cursive;
     display: flex;
     align-content: center;
@@ -727,13 +726,13 @@ footer {
     display: flex;
     justify-content: center; }
     .cuerpo .mapa #medidasMapa {
-      height: 450px;
-      width: 350px;
+      height: 480px;
+      width: 1000px;
       padding-bottom: 50px; }
   
   .cuerpo .tituloMain1 {
     color: #cee0d4;
-    font-size: 16px;
+    font-size: 45px;
     font-family: "Merienda", cursive;
     padding-top: 20px;
     display: flex;
@@ -741,10 +740,10 @@ footer {
   
   .cuerpo .datosForm, .cuerpo .datosForm #boton {
     color: #cee0d4;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Merienda", cursive;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
     margin-top: 30px; }
     .cuerpo .datosForm #boton {
       color: #b0e4c1;
@@ -752,9 +751,9 @@ footer {
       margin-bottom: 60px; }
   
   .cuerpo .conteinerImagenes {
-    padding-left: 25px;
+    padding-left: 60px;
     padding-bottom: 20px; }
     .cuerpo .conteinerImagenes .tamanioImg {
-      height: 130px;
-      width: 130px; }
+      height: 250px;
+      width: 250px; }
 }
