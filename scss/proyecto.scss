@@ -654,7 +654,6 @@ footer{
         }
         .tituloMain1{
             @include body (40px, $colorLetras);
-            margin-top: 10px;
             display: flex;
             justify-content: center;
         }

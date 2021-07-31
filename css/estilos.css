@@ -559,7 +559,6 @@ footer {
     color: #cee0d4;
     font-size: 40px;
     font-family: "Merienda", cursive;
-    margin-top: 10px;
     display: flex;
     justify-content: center; }
   .cuerpo .datosForm, .cuerpo .datosForm #boton {
@@ -687,7 +686,7 @@ footer {
     .cuerpo .datosForm #boton {
       color: #b0e4c1;
       margin-left: 0px;
-      margin-bottom: 50px; }
+      margin-bottom: 0px; }
   .cuerpo .conteinerImagenes {
     padding-left: 50px;
     padding-bottom: 20px; }
