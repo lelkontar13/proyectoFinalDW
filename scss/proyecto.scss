@@ -43,6 +43,7 @@ header{
 
 footer{
     background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+    width: 100%;
     .container-footer{
         display: flex;
         justify-content: space-around;
@@ -68,8 +69,6 @@ footer{
         }
     }
 }
-
-//CUERPO
 
 .cuerpo{
     .textoMain{
@@ -143,7 +142,680 @@ footer{
     
 }
 
+//SE ADAPTA A DISPOSITIVOS
+@media only screen and (max-width: 600px){
+    body {
+      background-image: url("../img/fondo1.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover; 
+    }
 
+    header{
+        display: flex;
+        justify-content: space-between;
+        .conteinerLogo{
+            #logoBeirut {
+                width: 170px; 
+                height: 120px;
+            }
+        }
+        .conteinerNav{
+            padding-top: 30px;
+            li{
+                display: inline;
+                padding-left: 20px;
+                padding-right: 20px;
+                a{
+                    @include body (17px, $colorLetras);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $colorHover;
+                }
+            }
+        }
+    }
+
+    footer{
+        width:100%;
+        background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+        .container-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .textoPiePagina{
+                @include body (13px, $colorLetras);
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                #bandera{
+                    width: 50px; 
+                    height: 35px;
+                }
+            }
+            .logosPiePagina{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                #logoRedes{
+                    width: 25px; 
+                    height: 28px;
+                }
+            }
+        }
+    }
+    
+    .cuerpo{
+        .textoMain{
+            @include body (24px, $colorLetras);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 200px;
+            padding-bottom: 90px;
+        }
+        .whatsapp{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            padding-top: 30px;
+            padding-bottom: 55px;
+            #logoWhatsapp{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .tituloHistoria{
+            @include body (21px, $colorLetras);
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+            text-decoration: underline;
+        }
+        .textoHistoria{
+            @include body (17px, $colorLetras);
+            display: flex;
+            align-content: center;
+            padding-left: 40px;
+            padding-bottom: 60px;
+        }
+        .mapa{
+            display: flex;
+            justify-content: center;
+            #medidasMapa{
+                height: 450px;
+                width: 350px;
+                margin-bottom: 25px;
+            }
+        }
+        .tituloMain1{
+            @include body (16px, $colorLetras);
+            padding-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .datosForm{
+            @include body (14px, $colorLetras);
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 30px;
+            #boton{
+                color: rgb(176, 228, 193);
+                margin-left: 0px;
+                margin-bottom: 110px;
+            }
+        }
+
+        .conteinerImagenes{
+            padding-left: 25px;
+            padding-bottom: 20px;
+            .tamanioImg{
+                height: 130px;
+                width: 130px;
+            }
+        }
+        
+    }
+}
+  
+@media only screen and (min-width: 600px){
+    body {
+        background-image: url("../img/fondo1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; 
+      }
+  
+      header{
+          display: flex;
+          justify-content: space-between;
+          .conteinerLogo{
+              #logoBeirut {
+                  width: 220px; 
+                  height: 150px;
+              }
+          }
+          .conteinerNav{
+              padding-top: 40px;
+              li{
+                  display: inline;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  a{
+                      @include body (20px, $colorLetras);
+                      text-decoration: none;
+                  }
+                  a:hover{
+                      color: $colorHover;
+                  }
+              }
+          }
+      }
+  
+      footer{
+          width:100%;
+          background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+          .container-footer{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              .textoPiePagina{
+                  @include body (17px, $colorLetras);
+                  display: flex;
+                  justify-content: flex-start;
+                  align-content: center;
+                  #bandera{
+                      width: 75px; 
+                      height: 45px;
+                  }
+              }
+              .logosPiePagina{
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: center;
+                  #logoRedes{
+                      width: 25px; 
+                      height: 30px;
+                  }
+              }
+          }
+      }
+      
+      .cuerpo{
+          .textoMain{
+              @include body (40px, $colorLetras);
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              padding-top: 100px;
+              padding-bottom: 100px;
+          }
+          .whatsapp{
+              display: flex;
+              justify-content: flex-end;
+              align-content: flex-end;
+              padding-top: 60px;
+              padding-bottom: 50px;
+              #logoWhatsapp{
+                  height: 50px;
+                  width: 50px;
+              }
+          }
+          .tituloHistoria{
+              @include body (24px, $colorLetras);
+              padding-top: 20px;
+              padding-left: 40px;
+              padding-bottom: 20px;
+              text-decoration: underline;
+          }
+          .textoHistoria{
+              @include body (20px, $colorLetras);
+              display: flex;
+              align-content: center;
+              padding-left: 40px;
+              padding-bottom: 45px;
+          }
+          .mapa{
+              display: flex;
+              justify-content: center;
+              #medidasMapa{
+                  height: 440px;
+                  width: 550px;
+              }
+          }
+          .tituloMain1{
+              @include body (25px, $colorLetras);
+              padding-top: 20px;
+              display: flex;
+              justify-content: center;
+          }
+          .datosForm{
+              @include body (17px, $colorLetras);
+              margin-right: 100px;
+              margin-left: 100px;
+              margin-top: 30px;
+              #boton{
+                color: rgb(176, 228, 193);
+                margin-left: 0px;
+                margin-bottom: 65px;
+              }
+          }
+          .conteinerImagenes{
+              padding-left: 5px;
+              padding-bottom: 60px;
+              .tamanioImg{
+                  padding-top: 10px;
+                  height: 125px;
+                  width: 125px;
+              }
+          }
+          
+      }
+}
+  
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url("../img/fondo1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;    
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        .conteinerLogo{
+            #logoBeirut {
+                width: 230px; 
+                height: 150px;
+            }
+        }
+        .conteinerNav{
+            padding-top: 40px;
+            li{
+                a{
+                    @include body (20px, $colorLetras);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $colorHover;
+                }
+            }
+        }
+    }
+    
+    footer{
+        background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+        width: 100%;
+        .container-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .textoPiePagina{
+                @include body (20px, $colorLetras);
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                #bandera{
+                    width: 80px; 
+                    height: 50px;
+                }
+            }
+            .logosPiePagina{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                #logoRedes{
+                    width: 30px; 
+                    height: 35px;
+                }
+            }
+        }
+    }
+    
+    .cuerpo{
+        .textoMain{
+            @include body (50px, $colorLetras);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .whatsapp{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            #logoWhatsapp{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .tituloHistoria{
+            @include body (26px, $colorLetras);
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-bottom: 10px;
+            text-decoration: underline;
+        }
+        .textoHistoria{
+            @include body (22px, $colorLetras);
+            display: flex;
+            align-content: center;
+            padding-left: 40px;
+            padding-bottom: 50px;
+        }
+        .mapa{
+            display: flex;
+            justify-content: center;
+            #medidasMapa{
+                height: 430px;
+                width: 650px;
+                padding-bottom: 30px;
+            }
+        }
+        .tituloMain1{
+            @include body (32px, $colorLetras);
+            display: flex;
+            justify-content: center;
+        }
+        .datosForm{
+            @include body (17px, $colorLetras);
+            margin-right: 150px;
+            margin-left: 150px;
+            margin-top: 25px;
+            #boton{
+                color: rgb(176, 228, 193);
+                margin-left: 0px;
+            }
+        }
+        .conteinerImagenes{
+            padding-left: 20px;
+            padding-bottom: 20px;
+            .tamanioImg{
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
+}
+  
+@media only screen and (min-width: 992px){
+    body{
+        background-image: url("../img/fondo1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;    
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        .conteinerLogo{
+            #logoBeirut {
+                width: 250px; 
+                height: 160px;
+            }
+        }
+        .conteinerNav{
+            padding-top: 40px;
+            li{
+                display: inline;
+                padding-left: 15px;
+                padding-right: 15px;
+                a{
+                    @include body (25px, $colorLetras);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $colorHover;
+                }
+            }
+        }
+    }
+    
+    footer{
+        background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+        .container-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .textoPiePagina{
+                @include body (20px, $colorLetras);
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                #bandera{
+                    width: 80px; 
+                    height: 50px;
+                }
+            }
+            .logosPiePagina{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                #logoRedes{
+                    width: 30px; 
+                    height: 35px;
+                }
+            }
+        }
+    }
+    
+    .cuerpo{
+        .textoMain{
+            @include body (60px, $colorLetras);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 80px;
+            padding-bottom: 75px;
+        }
+        .whatsapp{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            padding-top: 60px;
+            padding-bottom: 50px;
+            #logoWhatsapp{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .tituloHistoria{
+            @include body (26px, $colorLetras);
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+            text-decoration: underline;
+        }
+        .textoHistoria{
+            @include body (22px, $colorLetras);
+            display: flex;
+            align-content: center;
+            padding-left: 40px;
+            padding-bottom: 90px;
+        }
+        .mapa{
+            display: flex;
+            justify-content: center;
+            #medidasMapa{
+                height: 420px;
+                width: 600px;
+                padding-bottom: 30px;
+            }
+        }
+        .tituloMain1{
+            @include body (40px, $colorLetras);
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .datosForm{
+            @include body (18px, $colorLetras);
+            margin-right: 280px;
+            margin-left: 280px;
+            margin-top: 15px;
+            #boton{
+                color: rgb(176, 228, 193);
+                margin-left: 0px;
+            }
+        }
+        .conteinerImagenes{
+            padding-left: 30px;
+            padding-bottom: 20px;
+            .tamanioImg{
+                height: 190px;
+                width: 190px;
+            }
+        }
+        
+    }                         
+}
+  
+@media only screen and (min-width: 1200px){
+    body{
+        background-image: url("../img/fondo1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;    
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        .conteinerLogo{
+            #logoBeirut {
+                width: 270px; 
+                height: 180px;
+            }
+        }
+        .conteinerNav{
+            padding-top: 40px;
+            li{
+                display: inline;
+                padding-left: 20px;
+                padding-right: 20px;
+                a{
+                    @include body (32px, $colorLetras);
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $colorHover;
+                }
+            }
+        }
+    }
+    
+    
+    footer{
+        background-image: linear-gradient(rgb(117, 5, 5), rgb(189, 87, 87), rgb(59, 2, 2));
+        width: 100%;
+        .container-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .textoPiePagina{
+                @include body (20px, $colorLetras);
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                #bandera{
+                    width: 80px; 
+                    height: 50px;
+                }
+            }
+            .logosPiePagina{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                #logoRedes{
+                    width: 30px; 
+                    height: 35px;
+                }
+            }
+        }
+    }
+    
+    .cuerpo{
+        .textoMain{
+            @include body (70px, $colorLetras);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .whatsapp{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            padding-top: 59px;
+            padding-bottom: 50px;
+            #logoWhatsapp{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .tituloHistoria{
+            @include body (28px, $colorLetras);
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            text-decoration: underline;
+        }
+        .textoHistoria{
+            @include body (25px, $colorLetras);
+            display: flex;
+            align-content: center;
+            padding-left: 40px;
+            padding-bottom: 135px;
+        }
+        .mapa{
+            display: flex;
+            justify-content: center;
+            #medidasMapa{
+                height: 480px;
+                width: 1000px;
+                padding-bottom: 50px;
+            }
+        }
+        .tituloMain1{
+            @include body (45px, $colorLetras);
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .datosForm{
+            @include body (20px, $colorLetras);
+            margin-right: 400px;
+            margin-left: 400px;
+            margin-top: 30px;
+            #boton{
+                color: rgb(176, 228, 193);
+                margin-left: 0px;
+                margin-bottom: 60px;
+            }
+        }
+        .conteinerImagenes{
+            padding-left: 50px;
+            padding-bottom: 20px;
+            .tamanioImg{
+                height: 250px;
+                width: 250px;
+            }
+        }
+        
+    }
+}
 
 
 
